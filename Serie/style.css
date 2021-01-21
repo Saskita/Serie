@@ -1,0 +1,136 @@
+html {
+    background: #010E1B;  
+    background-size: cover;
+}
+
+
+/* Partie acceuil */
+ .accueil {
+  
+width: 100%;
+height: 700px;
+background: url(Fond.png), #C4C4C4;  
+    
+}
+
+
+ /* B99 */
+.accueil h1 {
+   
+    width: 630px;
+    height: 197px;
+    
+    
+    font-family: "Staatliches";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 105.68%;
+    /* or 159px */
+    padding-top: 18%;
+    
+    color: #F8E32C;
+}
+
+/* menu accueil*/
+
+
+.accueil ol {
+  
+    width: 197px;
+    height: 128.81px;
+    padding-top: 2%;
+    
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #F8E32C;
+}
+
+
+a {
+    color: #F8E32C; text-decoration:none;
+}
+
+p{
+    font-family: "Raleway";
+}
+
+h3 {
+
+    font-family: "Staatliches";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.partie {
+    background: #547594;
+    padding: 1%;
+    margin: 1% 0%;
+}
+
+table tr td {
+    padding: 4px; 
+    border: 1px solid black 
+}
+
+.partie-bis
+{
+     background: url(Seasons.jpg), #000000; 
+     background-size: cover;
+     width: 96%;
+     max-height: 1000px;
+     overflow-y: scroll;
+     padding: 2%;
+}
+
+.partie-bis p {
+    font-size: large;
+    font-weight: bold;
+    color: #FFED37;">
+}
+
+
+
+/* formulaire nous contacter */
+
+form {
+    padding: 0,5%;
+}
+
+input {
+    
+    background: #F8E32C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: "Staatliches";
+    font-weight: bold;
+    height: 27px;
+    width: 90px;
+}
+
+.partie-bis label {
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+
+.partie-bis p {
+    margin-top: 30px;
+}
+
+/* footer */
+footer {
+    background: #010E1B;
+    text-align: center;
+    color: #F8E32C;
+}  
